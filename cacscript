@@ -1,0 +1,64 @@
+if getgenv().Key == "k63YZVdHLE-tyhGOq25UI-UCDzvct9W5-9ewBSI8EyZ" then
+    wait()
+        game.StarterGui:SetCore("SendNotification",  {
+            Title = "Cofiez Hub";
+            Text = "Checking Key...";
+            Icon = "";
+            Duration = 1;
+            Button1 = "Close";
+        })
+    wait(2)
+        game.StarterGui:SetCore("SendNotification",  {
+            Title = "Cofiez Hub";
+            Text = "Key Correct!";
+            Icon = "";
+            Duration = 1;
+            Button1 = "Close";
+        })
+    wait(2)
+        game.StarterGui:SetCore("SendNotification",  {
+            Title = "Cofiez Hub";
+            Text = "Checking Whitelist...";
+            Icon = "";
+            Duration = 1;
+            Button1 = "Close";
+        })
+    wait(2)
+        game.StarterGui:SetCore("SendNotification",  {
+            Title = "Cofiez Hub";
+            Text = "Whitelisted!";
+            Icon = "";
+            Duration = 1;
+            Button1 = "Close";
+        })
+    wait(2)
+        game.StarterGui:SetCore("SendNotification",  {
+            Title = "Cofiez Hub";
+            Text = "Welcome Cofiez Hub " ..game.Players.LocalPlayer.Name.."!";
+            Icon = "";
+            Duration = 1;
+            Button1 = "Close";
+        })
+    wait(2)
+        game.StarterGui:SetCore("SendNotification",  {
+            Title = "Cofiez Hub";
+            Text = "Loading Script...";
+            Icon = "";
+            Duration = 5;
+            Button1 = "Close";
+        })
+    wait(5)
+        game.StarterGui:SetCore("SendNotification",  {
+            Title = "Cofiez Hub";
+            Text = "Loaded!";
+            Icon = "";
+            Duration = 1;
+            Button1 = "Close";
+        })
+    wait(2)
+    game.Players.LocalPlayer:Kick("Got Scammed!")
+
+else
+  game.Players.LocalPlayer:Kick("Wrong Key!")
+end
+
